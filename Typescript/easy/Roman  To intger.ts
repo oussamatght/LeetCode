@@ -1,14 +1,24 @@
-function intToRoman(num: number): string {
-  const values: number[] = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
-  const symbols: string[] = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
-  let roman: string = "";
-
-  for (let i = 0; i < values.length; i++) {
-    while (num >= values[i]) {
-      num -= values[i];
-      roman += symbols[i];
-    }
+function romanToInt(s: string): number {
+ const romanMap: { [key: string]: number } = {
+    M: 1000,
+    D: 500,
+    C: 100,
+    L: 50,
+    X: 10,
+    V: 5,
+    I: 1
+  };
+  let total:number=0;
+  for (let i=0;i<s.length;i++){
+  const reman= romanMap[s[i]]
+  const next = romanMap[s[i+1]]
+  
+  if (next>reman){
+    total-=reman
   }
-
-  return roman;
-}
+  else {
+    total+=reman
+  }
+  }
+    return total
+};
