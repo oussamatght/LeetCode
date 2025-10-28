@@ -72,22 +72,6 @@ LeetCode/
 
 ---
 
-## How to Use
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/LeetCode.git
- python python/easy/problem1.py
-gcc c/easy/problem1.c -o problem1
-./problem1
-ts-node typescript/easy/problem1.ts
-License
-
-MIT License – free to use, modify, and share.
-Contact
-
-Reach me at: [oussamatght6@gmail.com]
 
 
 
