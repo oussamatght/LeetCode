@@ -10,7 +10,6 @@ This repository contains solutions to LeetCode problems in **Python**, **C**, an
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>LeetCode Solutions</title>
 </head>
 <body>
 <div class="tree">
