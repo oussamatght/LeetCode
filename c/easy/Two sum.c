@@ -1,39 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-char *intToRoman(int num)
-{
-    int values[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-    char *symbols[] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+    #include <stdio.h>
 
-    char *roman = malloc(32);
-    if (roman == NULL)
-    {
-        return NULL;
-    }
-    roman[0] = '\0';
-
-    for (int i = 0; i < 13; i++)
-    {
-        while (num >= values[i])
-        {
-            num -= values[i];
-            strcat(roman, symbols[i]);
+void twoSum(int nums[], int numsSize, int target) {
+    for (int i = 0; i < numsSize; i++) {
+        for (int j = i + 1; j < numsSize; j++) {
+            if (nums[i] + nums[j] == target) {
+                printf("[%d, %d]\n", i, j);
+                return;
+            }
         }
     }
-
-    return roman;
+    printf("[]\n");
 }
 
-int main()
-{
-    int num = 1994;
-    char *roman = intToRoman(num);
-    if (roman != NULL)
-    {
-        printf("%d in Roman numerals is %s\n", num, roman);
-        free(roman);
-    }
+int main() {
+    int nums[] = {2, 7, 11, 15};
+    int target = 9;
+    int size = sizeof(nums) / sizeof(nums[0]);
+    twoSum(nums, size, target);
     return 0;
 }
+
