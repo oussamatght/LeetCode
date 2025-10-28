@@ -5,48 +5,46 @@ This repository contains my solutions to various **LeetCode problems** organized
 ---
 
 ## Repository Structure
+This repository contains solutions to LeetCode problems in **Python**, **C**, and **TypeScript**, organized by difficulty.
+LeetCode/
+├── python/
+│ ├── easy/
+│ │ ├── problem1.py
+│ │ └── problem2.py
+│ ├── medium/
+│ │ ├── problem1.py
+│ │ └── problem2.py
+│ └── hard/
+│ ├── problem1.py
+│ └── problem2.py
+├── c/
+│ ├── easy/
+│ │ ├── problem1.c
+│ │ └── problem2.c
+│ ├── medium/
+│ │ ├── problem1.c
+│ │ └── problem2.c
+│ └── hard/
+│ ├── problem1.c
+│ └── problem2.c
+└── typescript/
+├── easy/
+│ ├── problem1.ts
+│ └── problem2.ts
+├── medium/
+│ ├── problem1.ts
+│ └── problem2.ts
+└── hard/
+├── problem1.ts
+└── problem2.ts
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>LeetCode Solutions</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f9f9f9;
-        color: #333;
-        padding: 20px;
-    }
-    h1, h2 {
-        color: #2c3e50;
-    }
-    .tree {
-        font-family: monospace;
-        background-color: #fff;
-        border: 1px solid #ddd;
-        padding: 15px;
-        border-radius: 8px;
-        overflow-x: auto;
-    }
-    .language {
-        margin-top: 15px;
-    }
-    .difficulty {
-        margin-left: 20px;
-    }
-    .problem {
-        margin-left: 40px;
-        color: #2980b9;
-    }
-    a {
-        color: #2980b9;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+
 </head>
 <body>
 
