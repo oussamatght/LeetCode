@@ -6,39 +6,6 @@ This repository contains my solutions to various **LeetCode problems** organized
 
 ## Repository Structure
 This repository contains solutions to LeetCode problems in **Python**, **C**, and **TypeScript**, organized by difficulty.
-LeetCode/
-├── python/
-│ ├── easy/
-│ │ ├── problem1.py
-│ │ └── problem2.py
-│ ├── medium/
-│ │ ├── problem1.py
-│ │ └── problem2.py
-│ └── hard/
-│ ├── problem1.py
-│ └── problem2.py
-├── c/
-│ ├── easy/
-│ │ ├── problem1.c
-│ │ └── problem2.c
-│ ├── medium/
-│ │ ├── problem1.c
-│ │ └── problem2.c
-│ └── hard/
-│ ├── problem1.c
-│ └── problem2.c
-└── typescript/
-├── easy/
-│ ├── problem1.ts
-│ └── problem2.ts
-├── medium/
-│ ├── problem1.ts
-│ └── problem2.ts
-└── hard/
-├── problem1.ts
-└── problem2.ts
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,7 +16,7 @@ LeetCode/
 <body>
 
 <h1>LeetCode Solutions</h1>
-<p>This repository contains solutions to LeetCode problems in <strong>Python</strong>, <strong>C</strong>, and <strong>TypeScript</strong>, organized by difficulty level.</p>
+<p>This repository contains solutions to LeetCode problems in <h1>Python</h1>, <h1>C</h1>, and <h1>TypeScript</h1>, organized by difficulty level.</p>
 
 <h2>Folder Structure</h2>
 <div class="tree">
