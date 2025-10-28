@@ -6,7 +6,7 @@ This repository contains my solutions to various **LeetCode problems** organized
 
 ## Repository Structure
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>LeetCode Solutions</title>
@@ -51,9 +51,9 @@ This repository contains my solutions to various **LeetCode problems** organized
 <body>
 
 <h1>LeetCode Solutions</h1>
-<p>هذا المستودع يحتوي على حلول لمشاكل LeetCode بثلاث لغات: <strong>Python</strong>، <strong>C</strong>، و <strong>TypeScript</strong>، منظمة حسب مستوى الصعوبة.</p>
+<p>This repository contains solutions to LeetCode problems in <strong>Python</strong>, <strong>C</strong>, and <strong>TypeScript</strong>, organized by difficulty level.</p>
 
-<h2>هيكل المجلدات</h2>
+<h2>Folder Structure</h2>
 <div class="tree">
 LeetCode/
 <div class="language">├── python/
@@ -102,12 +102,12 @@ LeetCode/
 </div>
 </div>
 
-<h2>كيفية الاستخدام</h2>
-<p>1. انتقل إلى مجلد اللغة المطلوبة.<br>
-2. افتح مجلد الصعوبة المناسب.<br>
-3. نفّذ أو قم بترجمة الملف.</p>
+<h2>How to Use</h2>
+<p>1. Go to the language folder you want.<br>
+2. Open the corresponding difficulty folder.<br>
+3. Run or compile the file.</p>
 
-<h3>أمثلة</h3>
+<h3>Examples</h3>
 <p><strong>Python:</strong><br>
 <code>python3 python/easy/problem1.py</code></p>
 
