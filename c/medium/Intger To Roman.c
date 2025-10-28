@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -24,16 +25,4 @@ char *intToRoman(int num)
     }
 
     return roman;
-}
-
-int main()
-{
-    int num = 1994;
-    char *roman = intToRoman(num);
-    if (roman != NULL)
-    {
-        printf("%d in Roman numerals is %s\n", num, roman);
-        free(roman);
-    }
-    return 0;
 }
