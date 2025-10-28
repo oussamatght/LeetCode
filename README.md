@@ -7,37 +7,20 @@ This repository contains my solutions to various **LeetCode problems** organized
 ## Repository Structure
 LeetCode/
 ├── python/
-│ ├── easy/
-│ │ ├── problem1.py
-│ │ └── problem2.py
-│ ├── medium/
-│ │ ├── problem1.py
-│ │ └── problem2.py
-│ └── hard/
-│ ├── problem1.py
-│ └── problem2.py
+│   ├── easy/      
+│   ├── medium/      
+│   └── hard/       
 │
 ├── c/
-│ ├── easy/
-│ │ ├── problem1.c
-│ │ └── problem2.c
-│ ├── medium/
-│ │ ├── problem1.c
-│ │ └── problem2.c
-│ └── hard/
-│ ├── problem1.c
-│ └── problem2.c
+│   ├── easy/       
+│   ├── medium/     
+│   └── hard/        
 │
 └── typescript/
-├── easy/
-│ ├── problem1.ts
-│ └── problem2.ts
-├── medium/
-│ ├── problem1.ts
-│ └── problem2.ts
-└── hard/
-├── problem1.ts
-└── problem2.ts
+    ├── easy/       
+    ├── medium/      
+    └── hard/        
+
 ---
 
 ## Languages Used
