@@ -11,14 +11,8 @@ This repository contains solutions to LeetCode problems in **Python**, **C**, an
 <head>
 <meta charset="UTF-8">
 <title>LeetCode Solutions</title>
-
 </head>
 <body>
-
-<h1>LeetCode Solutions</h1>
-<p>This repository contains solutions to LeetCode problems in <h1>Python</h1>, <h1>C</h1>, and <h1>TypeScript</h1>, organized by difficulty level.</p>
-
-<h2>Folder Structure</h2>
 <div class="tree">
 LeetCode/
 <div class="language">├── python/
@@ -67,22 +61,6 @@ LeetCode/
 </div>
 </div>
 
-<h2>How to Use</h2>
-<p>1. Go to the language folder you want.<br>
-2. Open the corresponding difficulty folder.<br>
-3. Run or compile the file.</p>
-
-<h3>Examples</h3>
-<p><strong>Python:</strong><br>
-<code>python3 python/easy/problem1.py</code></p>
-
-<p><strong>C:</strong><br>
-<code>gcc c/easy/problem1.c -o problem1<br>
-./problem1</code></p>
-
-<p><strong>TypeScript:</strong><br>
-<code>tsc typescript/easy/problem1.ts<br>
-node typescript/easy/problem1.js</code></p>
 
 </body>
 </html>
