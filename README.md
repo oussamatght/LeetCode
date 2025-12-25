@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-This repository contains my solutions to various **LeetCode problems** organized by difficulty and programming language. It serves as a personal reference for practicing algorithms, data structures, and problem-solving skills.
+This repository contains my solutions to various **LeetCode problems** organized by difficulty and programming language. It serves as a personal reference for practicing algorithms, data structures, and problem-solving skills
 
 ---
 
