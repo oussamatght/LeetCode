@@ -3,7 +3,6 @@ export function addBinary(a: string, b: string): string {
   let j = b.length - 1;
   let carry = 0;
   const result: string[] = [];
-
   while (i >= 0 || j >= 0 || carry !== 0) {
     let sum = carry;
 
